@@ -1,0 +1,87 @@
+.shaking {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    /* animation-iteration-count: infinite; */
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.center{
+    background: white;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+img{
+      /* padding-left:2em; */
+    width: 250px;
+}
+button{
+    margin-top: 1em;
+}
+h1{
+    font-size: 2em;
+}
+#butt{
+    background-color: red;
+    /* background-color:greenyellow; */
+    border: none;
+    /* color: black; */
+    color: white;
+    padding: 16px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+body{
+    background: linear-gradient(90deg, #3e3e60, lightblue);
+    background: linear-gradient(90deg, green, lightblue);
+    background-image: linear-gradient(diagonally, green, yellow, red);
+}
+input{
+    background: yellow;
+}
+/* .center{
+    background: white;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+#eightBall{
+    width: 350px;
+    height: 350px;
+    background: black;
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#answer{
+    font-size: 25px;
+} */
+/* #answer .bal{
+    margin: auto;
+    width: 100px;
+} */
