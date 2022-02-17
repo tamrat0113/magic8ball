@@ -26,7 +26,6 @@ function ask(e){
     setTimeout(() =>{
         document.body.style.background="linear-gradient(90deg, #3e3e60, lightblue)";
         generatMagic8Ball();
-        input.replace(/<input[^>]*>|<\/input>/gi, "");
     },2000);  
 }
 
