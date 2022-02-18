@@ -6,7 +6,7 @@ const answer = document.querySelector('div');
 button.addEventListener('click', ask);
 
 // Create a function that when clicked, it insert the magic8Ball into your "answers" div
-function ask(e){
+function ask(){
 // Find or select the child you want to remove, and use its parentNode property to find the parent:
     const Ball = document.getElementById('bal');
     if(Ball != null){
@@ -42,5 +42,6 @@ const randomM8Ball = magicBall[Math.floor(Math.random() * magicBall.length)];
 const imageEl = document.createElement('img');
 imageEl.setAttribute('id', 'bal');
 imageEl.src = `${randomM8Ball}`;
+answer.innerHTML= `${input.value}`;
 answer.appendChild(imageEl);
 };
