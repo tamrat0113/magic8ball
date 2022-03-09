@@ -38,7 +38,7 @@ let magicBall = new Array( "images/magic/magic8ball_10.png", "images/magic/magic
 //Generating a random magic eight ball
 const randomM8Ball = magicBall[Math.floor(Math.random() * magicBall.length)];
 
-//Creating an image element and append it to "answers" div
+//Creating an image element , append it to "answers" div and Replace the input field with the user's question when displaying the answer
 const imageEl = document.createElement('img');
 imageEl.setAttribute('id', 'bal');
 imageEl.src = `${randomM8Ball}`;
